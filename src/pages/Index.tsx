@@ -92,13 +92,24 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="mb-12 text-center animate-scale-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Наши мечты и планы
-            </h2>
-            <p className="text-xl text-foreground/70">
-              Всё, что мы воплотим вместе
-            </p>
+          <div className="mb-12 animate-scale-in">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-12 max-w-3xl mx-auto">
+              <img 
+                src="https://cdn.poehali.dev/projects/65a50e8b-6d31-4b18-906b-31d0691ca71c/bucket/8d7b7404-ed01-4227-a195-e47cd190a17c.jpg"
+                alt="Наша любовь"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            </div>
+
+            <div className="text-center">
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+                Наши мечты и планы
+              </h2>
+              <p className="text-xl text-foreground/70">
+                Всё, что мы воплотим вместе
+              </p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 animate-fade-in">
