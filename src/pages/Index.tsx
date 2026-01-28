@@ -85,7 +85,7 @@ const Index = () => {
 
             <div className="max-w-2xl mx-auto bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl">
               <p className="text-xl md:text-2xl text-foreground/90 leading-relaxed">
-                Мой любимый! В этот особенный день хочу сказать, как ты важен для меня. 
+                Мой любимый Вовочка! В этот особенный день хочу сказать, как ты важен для меня. 
                 Ты делаешь каждый мой день ярче и наполняешь жизнь смыслом. 
                 С тобой я верю в чудеса и мечтаю о прекрасном будущем!
               </p>
